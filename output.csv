@@ -1,9 +1,0 @@
-house_number,road,unit,level,staircase,entrance,po_box,postcode,city,state,country
-#123,main st,toronto,on,m5r 2e8
-bsmt,333,main st,toronto,on,m5r 2e8
-23,main st e,quebec city,qc,h3b 1y6
-123-456,maple ave,vancouver,bc,v6h 1t5
-123-456,maple ave,montreal,qc,g6h 1t5
-789,oak st,montreal,qc,h3b 1y6
-789,oak st,#44,montreal,qc,h3e 1y6
-
