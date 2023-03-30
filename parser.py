@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import sys
-import requests 
+import requests
 import json
 from postal.parser import parse_address
 
@@ -52,8 +52,8 @@ def parse_address_file(input_file, output_file):
             for component in components:
                 if component[1]:
                     parsed_components[component[1]] = component[0]
-            
-            parsed_components['address'] = address 
+
+            parsed_components['address'] = address
             parsed_components['lat'] = lat
             parsed_components['lng'] = lng
 
@@ -64,11 +64,10 @@ def parse_address_file(input_file, output_file):
     with open(output_file, 'w') as f:
         json.dump(parsed_addresses, f)
 
-# Check if the input and output file names are provided as command line arguments
-if len(sys.argv) != 3:
-    print("Usage: address_parser.py input_file output_file")
+# Check all arguments are passed in
+if len(sys.argv) != 4:
+    print("Usage: address_parser.py api_key input_file output_file")
     sys.exit()
-
 
 input_file = sys.argv[2]
 output_file = sys.argv[3]
