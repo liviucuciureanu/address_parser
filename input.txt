@@ -1,4 +1,8 @@
-123 Main St, Toronto, ON M5R 2E8
-456 Maple Ave, Vancouver, BC V6H 1T5
+#123 Main St, Toronto, ON M5R 2E8
+bsmt 333 Main St, Toronto, ON M5R 2E8
+23 Main St E, Quebec City, QC H3B 1Y6
+123-456 Maple Ave, Vancouver, BC V6H 1T5
+123-456 Maple Ave, Montreal, QC G6H 1T5
 789 Oak St, Montreal, QC H3B 1Y6
+789 Oak St, #44, Montreal, QC H3E 1Y6
 
